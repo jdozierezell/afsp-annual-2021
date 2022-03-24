@@ -1,0 +1,208 @@
+:root{
+    --gradient-paleblue:#abffdd;
+    --gradient-paleyellow:#f5f8b6;
+    --gradient-mediumblue:#8abbff;
+    --gradient-palered:#f5abd5;
+    --gradient-brightyellow:#fff1ba;
+    --anim-duration1: 1s;
+    --anim-duration2: 2s;
+    --anim-duration3: 3s;
+    --anim-duration4: 4s;
+    --anim-duration5: 5s;
+    --anim-duration6: 6s;
+}
+
+#gradient {width:100%; height:100vh; position:fixed; top:0; bottom:0; left:0; right:0; z-index:1; background:rgb(172 207 255 / 49%); overflow:hidden;}
+
+#gradient.safari {
+    --gradient-paleblue: #80fecb;
+    --gradient-paleyellow: #fbef4b;
+    --gradient-mediumblue: #0166f2;
+    --gradient-palered: #fba2d5;
+    --gradient-brightyellow: #ffd845;
+}
+
+
+
+#gradient-holder {width:100%; height:100%; position:absolute; top:0; bottom:0; left:0; right:0; z-index:1; background:rgb(172 207 255 / 49%); /*url("../images/gradient.png") 0 0 no-repeat; background-size:100% 100%;*/ overflow:hidden;}
+
+.gradient_block {position:absolute; 
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+.gradient_block-inner {display:block; height:100%; width:100%; position:absolute; top:0; bottom:0; left:0; right:0;
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+.gradient_before {display:block; height:100%; width:100%; position:absolute; top:0; bottom:0; left:0; right:0; 
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+.gradient_after {display:block; height:100%; width:100%; position:absolute; top:0; bottom:0; left:0; right:0; 
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+/* Gradient 1 */
+#gradient1 {
+width:300%;
+height:150%;
+bottom:-60%;
+right:-150%;
+}
+#gradient1.gradient_block .gradient_before {background:url("../images/gradient_paleyellow.png") center center no-repeat; background-size:100% 100%;}
+#gradient1.gradient_block .gradient_after {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration4) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 2 */
+#gradient2 {
+width:200%;
+height:200%;
+top:-100%;
+left:-100%;
+}
+#gradient2.gradient_block .gradient_before {background:url("../images/gradient_mediumblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient2.gradient_block .gradient_after {background:url("../images/gradient_paleyellow.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration3) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 3 */
+#gradient3 {
+width:80%;
+height:80%;
+top:-10%;
+left:-28%;
+opacity:60%;
+}
+#gradient3.gradient_block .gradient_before {background:url("../images/gradient_mediumblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient3.gradient_block .gradient_after {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration1) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 4 */
+#gradient4 {
+width:60%;
+height:60%;
+top:-25%;
+left:-25%;
+opacity:100%;
+}
+#gradient4.gradient_block .gradient_before {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient4.gradient_block .gradient_after {background:url("../images/gradient_paleyellow.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration3) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 5 */
+#gradient5 {
+width:80%;
+height:80%;
+top:-30%;
+left:-8%;
+opacity:70%;
+}
+#gradient5.gradient_block .gradient_before {background:url("../images/gradient_mediumblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient5.gradient_block .gradient_after {background:url("../images/gradient_paleyellow.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration2) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 6 */
+#gradient6 {
+width:80%;
+height:80%;
+bottom:-10%;
+left:-38%;
+opacity:80%;
+}
+#gradient6.gradient_block .gradient_before {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient6.gradient_block .gradient_after {background:url("../images/gradient_palered.png") center center no-repeat; background-size:100% 100%;}
+
+
+/* Gradient 7 */
+#gradient7 {
+width:80%;
+height:80%;
+top:-50%;
+left:6%;
+opacity:70%;
+}
+#gradient7.gradient_block .gradient_before {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient7.gradient_block .gradient_after {background:url("../images/gradient_mediumblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration2) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 8 */
+#gradient8 {
+width:80%;
+height:80%;
+top:-50%;
+left:26%;
+}
+#gradient8.gradient_block .gradient_before {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;}
+#gradient8.gradient_block .gradient_after {background:url("../images/gradient_mediumblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration3) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 9 */
+#gradient9 {
+width:80%;
+height:80%;
+top:-30%;
+right:-36%;
+}
+#gradient9.gradient_block .gradient_before {background:url("../images/gradient_brightyellow.png") center center no-repeat; background-size:100% 100%;}
+#gradient9.gradient_block .gradient_after {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration4) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 10 */
+#gradient10 {
+width:80%;
+height:50%;
+top:-10%;
+right:-26%;
+}
+#gradient10.gradient_block .gradient_before {background:url("../images/gradient_palered.png") center center no-repeat; background-size:100% 100%;}
+#gradient10.gradient_block .gradient_after {background:url("../images/gradient_brightyellow.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration3) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 11 */
+#gradient11 {
+width:80%;
+height:80%;
+bottom:-10%;
+right:-21%;
+}
+#gradient11.gradient_block .gradient_before {background:url("../images/gradient_brightyellow.png") center center no-repeat; background-size:100% 100%;}
+#gradient11.gradient_block .gradient_after {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration4) ease-in-out 0s infinite alternate; */
+}
+
+/* Gradient 12 */
+#gradient12 {
+width:85%;
+height:85%;
+bottom:-20%;
+left:2%;
+}
+#gradient12.gradient_block .gradient_before {background:url("../images/gradient_brightyellow.png") center center no-repeat; background-size:100% 100%;}
+#gradient12.gradient_block .gradient_after {background:url("../images/gradient_paleblue.png") center center no-repeat; background-size:100% 100%;
+/* animation: OpacityAnim var(--anim-duration3) ease-in-out 0s infinite alternate; */
+}
+
+/*
+@keyframes OpacityAnim {
+    0%{opacity:0.0}
+    100%{opacity:1.0}
+}
+
+*/

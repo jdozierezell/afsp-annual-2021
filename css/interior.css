@@ -1,0 +1,653 @@
+#content_holder {padding:0 20px;}
+
+.modalspotlight_link {display:none;}
+
+.interior_section {width:100%; position:relative; z-index:1;}
+.interior_content {width:100%; position:relative; z-index:1; max-width:904px; margin:0 auto;}
+
+/* Page Header */
+#page_header .interior_content {padding:226px 0 183px 0; text-align:center;}
+#page_header .interior_content h1 {margin:0; padding:0; color:#10046E; font-size:50px; line-height:55px; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+#page_header .two-line-header {padding:161px 0 107px 0; text-align:center;}
+#page_header .two-line-header h1 {font-size:50px; line-height:55px; text-align: center;}
+#page_header .long-word h1 {font-size:50px; line-height:55px; text-align: center;}
+
+#page_header .letter-header {padding:161px 0 107px 0; text-align:left;}
+#page_header .letter-header h1 {font-size: 50px !important; line-height: 55px !important;}
+#page_header .letter-header br {display: none;}
+
+/* Page Intro */
+#page_intro .interior_content {max-width:700px;}
+#page_intro h2 {margin:0 0 21px 0; padding:0; color:#262626; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size:22px; line-height:26px;}
+#page_intro p {margin:0 0 10px 0; padding:0; color:#262626; font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:18px; line-height:25px;}
+#page_intro p a {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:700; color: #333;}
+
+#page_intro .letter_intro h2 {font-size:18px; line-height:22px;}
+#page_intro .letter_body p strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:500; }
+
+#letter_list {list-style: none; font-family: 'PaulGroteskSoft-Regular', sans-serif; font-weight: 500; width: 280px; margin: 65px 0 40px;padding: 0;}
+#letter_list li p {font-size: 20px; line-height: 25px; padding: 0 0 0 20px;}
+#letter_list li strong {display: block; font-family: 'PaulGroteskSoft-Bold', sans-serif; font-weight: 700; }
+#letter_list li {display: block; vertical-align: top; text-align: left; width: 280px;margin: 0 30px 12px 0;}
+#letter_list li {display: block; margin: 0 auto 58px;}
+#letter_list li:nth-child(even) {margin-right: 0;}
+#letter_list li #gebbia_sig {margin: 33px 0 7px;}
+#letter_list li #compton_sig {margin: 20px 0 0px;}
+
+#page_intro .intro_highlight {border:1px #fff solid; position:relative; border-radius: 30px 30px 0 30px; padding: 37px 40px 27px; width: 90%; max-width: 536px; margin: 44px auto 38px;}
+#page_intro .intro_highlight p {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:700; font-size: 20px; line-height: 24px; color: #396DFF; padding: 0; margin: 0;}
+#page_intro .chapter_highlight {border-radius: 30px 0 30px 30px;}
+
+#page_intro .column_right-statistics {padding: 6px 0 0 14px; font-family:'PaulGroteskSoft-Medium',sans-serif; font-size: 15px; color: #10046E;line-height: 18px;}
+#page_intro .column_right-statistics span {padding: 20px 0 0px; display: block;}
+#page_intro .column_right-statistics span strong {font-size: 25px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+
+
+/* Subsection Intro */
+.subsection_intro .interior_content {}
+.subsection_intro h2 {margin:0 0 21px 0; padding:0; color:#10046E; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;  font-size: 35px;line-height: 45px;text-align: center;}
+.subsection_intro p {max-width: 700px; margin:0 auto 10px; padding:0; color:#262626; font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:18px; line-height:25px;}
+
+
+/* Content */
+.content_mobile {display:block;}
+.content_desktop {display:none;}
+
+.column_left {}
+.column_left-image {margin: 0 0 37px 0;}
+.column_left-image img {width:100%; height:auto; border-radius: 30px 30px 30px 0;}
+.column_left-caption {}
+
+.column_right {padding:42px 0;background: rgba(255, 255, 255, .5);border-radius: 0 30px 30px 30px;}
+.column_right-content {padding:0 40px; }
+.column_right-content h3 {padding:0 0 17px 0; font-family: 'AvenirNextLTPro-Bold', sans-serif; font-size: 20px; font-weight:400; line-height: 24px;}
+.column_right-content h4 {padding:20px 0 22px 0; font-family: 'AvenirNextLTPro-Bold', sans-serif; font-size: 15px; font-weight:400; line-height: 24px;margin: 0;}
+#education_section5 .column_right-content h4 {padding:0 0 22px 0;}
+#education_section5 .column_right-content h4.lastsubhead {padding:6px 0 22px 0;}
+.column_right-content p {font-size: 15px; line-height: 22px; padding: 0 0 23px 0;font-family: 'AvenirNextLTPro-Regular', san-serif;}
+.column_right-content p strong {font-family:'AvenirNextLTPro-Bold', san-serif; font-weight:400;}
+.column_right-content p em {font-family: 'AvenirNextLTPro-It', sans-serif; font-style: normal;}
+.column_right-content ul {font-size: 15px; line-height: 20.5px; margin: 0; padding: 2px 0 15px 17px; list-style-position: outside;}
+.column_right-content li {padding: 0 0 0 10px;}
+
+.column_right-content .column_right-caption {padding: 12px 0 9px 14px; font-family:'PaulGroteskSoft-Medium',sans-serif; font-size: 20px; line-height: 21px; color: #10046E;}
+.column_right-content .column_right-caption strong {font-size: 80px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;line-height: 65px;}
+
+
+.column_right-content .column_right-statistics {padding: 6px 0 0 14px; font-family:'PaulGroteskSoft-Medium',sans-serif; font-size: 15px; color: #10046E;line-height: 18px;}
+.column_right-content .column_right-statistics span {padding: 20px 0 0px; display: block;}
+.column_right-content .column_right-statistics span strong {font-size: 25px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+
+.interiorspotlight_section {border:1px #fff solid; position:relative; border-radius: 30px 30px 0 30px; padding: 30px 28px 59px;}
+.interiorspotlight_section h3 {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; text-transform: uppercase; font-size: 14px;  color: #3928BD;margin: 0 0 9px 0;}
+.interiorspotlight_section .spotlight_more {}
+.interiorspotlight_trigger {position:absolute; left:0; right:0; top:0; bottom:0; display:block;}
+.interiorspotlight_trigger:active {outline:none;}
+.interiorspotlight_trigger:focus {outline:none;}
+
+.interiorspotlight_section .interiorspotlight_quote #quotation_mark {	
+	font-size: 80px;
+    font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fff;
+	display: block;
+	line-height: initial;
+	color: rgba(255, 255, 255, .0);
+	line-height: 10px;
+	padding: 36px 0 0 0;
+}
+
+.interiorspotlight_quote p {padding: 0 0 8px 0; font-family: 'PaulGroteskSoft-Regular', sans-serif; color: #396DFF; font-size: 20px; line-height: 26px;}
+.interiorspotlight_quote p strong {font-family:'PaulGroteskSoft-Bold',sans-serif;  font-weight:400;}
+
+.interiorspotlight_quote-citation p {font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size: 14px; line-height: 16px; color: #3928BD;}
+.interiorspotlight_quote-citation p strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+
+.interiorspotlight_more {padding: 9px 0 0 0; color: #E12A91; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size: 16px; float: right;}
+
+.interiorspotlight_more:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#advocacy_section5 .column_right-content .stats_highlight  {font-family: 'PaulGroteskSoft-Medium',sans-serif; font-weight: 500; font-size: 16px; line-height: 21px; color: #10046e;}
+
+
+#walks_section1 {padding:146px 0 0 0;}
+#walks_section2 {padding:126px 0 0 0;}
+#walks_section3 {padding:184px 0 92px 0;}
+#walks_section4 {padding:92px 0 184px 0;}
+#walks_section5 {padding:0 0 4px 0;}
+
+#education_section1 {padding:146px 0 0 0;}
+#education_section1 .column_right-content:last-of-type {/*padding: 12px 0 0 40px;*/}
+#education_section2 {padding:126px 0 0 0;}
+#education_section3 {padding:184px 0 92px 0;}
+#education_section4 {padding:92px 0 184px 0;}
+#education_section5 {padding: 0 0 4px 0;}
+
+#campaigns_section1 {padding:146px 0 0 0;}
+#campaigns_section2 {padding:126px 0 0 0;}
+#campaigns_section2 .column_right-content .column_right-caption strong {font-size: 69px;}
+#campaigns_section3 {padding: 244px 0 122px 0;}
+#campaigns_section3 .column_right-content .column_right-statistics br {display: none;}
+#campaigns_section4 {padding:92px 0 92px 0;}
+#campaigns_section5 {padding:92px 0 92px 0;}
+#campaigns_section6 {padding:92px 0 184px 0;}
+#campaigns_section7 {padding:92px 0 92px 0;}
+#campaigns_section8 {padding:92px 0 92px 0;}
+#campaigns_section9 {padding:92px 0 92px 0;}
+#campaigns_section10 {padding:92px 0 1px 0;}
+ 
+#research_section1 {padding:146px 0 0 0;}
+#research_section2 {padding:126px 0 0 0;}
+#research_section2 .interior_content .column_section .column_right {border-radius:0 30px 30px 30px;}
+
+#research_section2a {padding:105px 0 0px 0;}
+#research_section2a .interior_content .column_section .column_right {border-radius:0 30px 0 0;}
+
+#research_section3 {padding:16px 0 10px 0;}
+#research_section3 .column_left-image {margin: 0 0 8px 0;}
+
+#research_section3 .interior_content .column_section .column_right {border-radius:0 0 0 0;padding: 27px 0 37px 0;}
+
+
+#research_section3 h4 {font-size: 16px;}
+#research_section4 {padding:6px 0 184px 0;}
+#research_section4 .column_left-image {margin:0 0 8px 0;}
+
+#research_section4 .interior_content .column_section .column_right {border-radius:0 0 30px 30px;padding: 27px 0 37px 0;}
+#research_section4 h4 {font-size: 16px;}
+
+#advocacy_section1 {padding:146px 0 0 0;}
+#advocacy_section2 {padding:126px 0 0 0;}
+#advocacy_section3 {padding:184px 0 92px 0;}
+#advocacy_section4 {padding:92px 0 184px 0;}
+
+#screening_section1 {padding:146px 0 0 0;}
+#screening_section2 {padding:126px 0 0 0;}
+#screening_section3 {padding:184px 0 92px 0;}
+
+
+#screening_section1 .column_right .column_right-content p {position:relative; padding: 0 0 12px 48px; font-family: 'PaulGroteskSoft-Regular', sans-serif;
+color: #396DFF;
+font-size: 20px;
+line-height: 26px;
+}
+    
+.openquote {
+    font-family: 'PaulGroteskSoft-Bold',sans-serif;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #456FF6;
+    display: block;
+    color: rgba(69, 111, 246, .0);
+    font-size: 90px;
+    position: absolute;
+    top: 25px;
+    left: -10px;
+}   
+
+#loss_section1 {padding:146px 0 0 0;}
+#loss_section2 {padding:126px 0 54px 0;}
+#loss_section2 .column_right-content .stats_highlight  {font-family: 'PaulGroteskSoft-Medium',sans-serif; font-weight: 500; font-size: 16px; line-height: 21px; color: #10046e;}
+#loss_section2 .column_right-content .stats_highlight strong {font-family: 'PaulGroteskSoft-Bold', sans-serif; font-weight: 900;}
+
+#loss_section3 {padding:104px 0 92px 0;}
+
+#loss_section4 {padding:0 0 92px 0;}
+
+.gala_highlight {width: 90%; max-width: 500px; margin: 60px auto 52px;}
+.gala_highlight img {width: 100%; height: auto;}
+
+#scientific-council h2 {font-size: 60px; line-height: 74px;}
+
+#chapter-donors h2 {font-size: 60px; line-height: 74px;}
+#afsp-north-stars h2 {font-size: 60px; line-height: 74px;}
+#funds-and-campaigns h2 {font-size: 60px; line-height: 74px;}
+
+/* Scroller */
+.scroll_section {width: calc(100% - 40px); margin:0 0 0 40px;}
+.scroller {
+    display:flex;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    min-height:248px;
+    overflow-y: hidden;
+    /*overflow-x: overlay;*/
+}
+
+.scroller::-webkit-scrollbar {
+  height:10px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+
+
+}
+.scroller::-webkit-scrollbar-thumb {  
+    background-color:#4470F6;
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
+.scroller_holder {display:flex; position:relative;}
+
+.scroll_pod {margin:0 20px 0 0; width:275px; display:block; float:left;}
+.scroll_pod img {width:100%; height:auto;}
+.scroll_pod-blue {padding:28px; color:#fff; background:#396dff;}
+.scroll_pod-blue p {margin:0; padding:0; font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:15px; line-height:19px;}
+
+/* Leadership and Donors */
+.community_grid-holder {max-width: 800px; margin: 0 auto;}
+.community_grid-holder  h3 {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size: 20px; line-height: 21px; color: #333;padding: 0 0 22px 0;}
+.community_grid-holder  h4 {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size: 15px; line-height: 21px; color: #333;padding: 5px 0 2px 0;margin: 0;}
+
+.community_grid-column {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#262626; font-size:15px;}
+.community_grid-column ul {list-style:none; margin:0; padding:0;}
+.community_grid-column ul li {margin:0 0 25px 0; padding:0 10px 0 0; line-height:19.5px;}
+.community_grid-column ul li strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+.donors .community_grid-column p {padding: 0 0 25px 0;}
+.donors .community_grid-holder  h3 {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size: 20px; line-height: 21px; color: #333;padding: 0 0 22px 0;}
+
+
+.community_content {padding: 0 0 33px 0;}
+.community_content hr {max-width: 800px; margin: 0 auto;border: 0;border-top: 2px solid #fff;}
+.donors .community_content hr {max-width: 800px; margin: 25px auto 0; border: 0; border-top: 2px solid #fff;}
+.donors .community_content h4 {padding:10px 0 2px 0;  font-size: 15px; font-weight:400; line-height: 18px; margin: 0;}
+.donors .community_content strong {display: block;margin: 3px 0 0 0;letter-spacing: -.02em;font-family: 'AvenirNextLTPro-Demi', sans-serif;font-weight: 400;}
+
+/* Grants  */
+
+#grants_section1 .interior_content {max-width:1024px;}
+#grants_section2 .interior_content {max-width:1024px;}
+
+
+.grants_row {padding:0 0 45px 0;}
+
+.grants_sections {margin: 0 auto; max-width: 720px;}
+.grants_sections h2 {margin:0 0 21px 0; padding:0; color:#262626; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:900; font-size:22px; line-height:26px;}
+.grants_sections p {margin:0 0 10px 0; padding:0; color:#262626; font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:18px; line-height:25px;}
+
+#grants_section1 .grants_sections {padding: 0 0 25px 0;}
+#grants_section2 .grants_sections {padding: 0 0 70px 0;}
+
+#grants_section1 {padding: 169px 0 0 0;}
+#grants_section2 {padding: 104px 0 0 0;}
+#grants_section3 {padding: 244px 0 122px 0;}
+#grants_section4 {padding: 122px 0 244px 0;}
+#grants_section5 {padding: 0 0 4px 0;}
+
+.grants_intro-list {list-style:none; margin:32px 0 0 0; padding:0;}
+.grants_intro-list li {margin:0 0 16px 0; padding:0 0 0 40px; background-repeat:no-repeat; background-position:0 0; background-size:29px 29px; font-family: 'PaulGroteskSoft-Medium', sans-serif; font-weight: 400; font-size:15px; line-height:22px;}
+.grants_intro-list li strong {font-family: 'PaulGroteskSoft-Bold', sans-serif; font-weight: 900; display: block;}
+.grants_intro-list li.grants_n {background-image:url("../images/grants_n.png")}
+.grants_intro-list li.grants_p {background-image:url("../images/grants_p.png")} 
+.grants_intro-list li.grants_g {background-image:url("../images/grants_g.png")}
+.grants_intro-list li.grants_t {background-image:url("../images/grants_t.png")}
+.grants_intro-list li.grants_c {background-image:url("../images/grants_c.png")}
+
+.grants_recipient {}
+
+.grants_recipient-photo {width:32%; float:left; max-width:129px;}
+.grants_recipient-photo img {width:100%; height:auto;}
+.grants_recipient-bio {width:68%; float:left; padding:0 0 0 10px; color:#fff;}
+.grants_recipient-bio h3 {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400; margin:0; padding:0; font-size:15px; line-height:18px; color:#262626;}
+.grants_recipient-bio p {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:1px 0 10px 0; padding:0; font-size:14px; line-height:20px; color:#262626;}
+.grants_recipient-bio p br {display:block; line-height:10px; height:10px;}
+
+.grants_info {color:#262626; padding:35px;background: rgba(255,255,255,.5);border-radius: 0 30px 30px 30px; margin: 20px 0 0 0;}
+.grants_info h3 {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400; margin:0; padding:0; font-size:16px; line-height:22px; color:#262626;}
+.grants_info ul {list-style:none; margin:0 0 20px 0; padding:0;}
+.grants_info ul li {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:0; padding:0; font-size:16px; line-height:22px;}
+.grants_info p {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:0 0 10px 0; padding:0; font-size:16px; line-height:22px; color:#262626;}
+
+.grants_addtl_photo {margin-top: 20px;}
+.grants_addtl_text {margin-top: 20px;}
+
+
+
+/* Footer */
+#footer_holder {max-width:1160px; padding:120px 0 100px 0; margin:0 auto;}
+#footer_holder .footer_right {float:right;}
+#footer_holder .footer_right a {display:block; text-decoration:none;}
+#footer_holder .footer_right a span {display:block; background:rgba(255, 255, 255, .5); text-align:right; padding:10px 10px 10px 20px; height:60px; position:relative;}
+#footer_holder .footer_right a:hover span {background:#fff;}
+#footer_holder .footer_right a span:after {
+      width: 0;
+      height: 0;
+      border-top: 30px solid transparent;
+      border-left: 34px solid rgba(255, 255, 255, .5);
+      border-bottom: 30px solid transparent;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -34px;
+}
+#footer_holder .footer_right a:hover span:after {border-left: 34px solid #fff;}
+#footer_holder .footer_right {font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:14px; color:#396DFF; text-decoration:none; line-height:18px;}
+#footer_holder .footer_right strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size:16px; color: #3928BD; display: block;}
+
+#footer_holder .footer_left {float:left;}
+#footer_holder .footer_left a {display:block; text-decoration:none;}
+#footer_holder .footer_left a span {display:block; background:rgba(255, 255, 255, .5); text-align:right; padding:10px 20px 10px 10px; height:60px; position:relative;}
+#footer_holder .footer_left a:hover span {background:#fff;}
+#footer_holder .footer_left a span:after {
+      width: 0;
+      height: 0;
+      border-top: 30px solid transparent;
+      border-right: 34px solid rgba(255, 255, 255, .5);
+      border-bottom: 30px solid transparent;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -34px;
+}
+#footer_holder .footer_left a:hover span:after {border-right: 34px solid #fff;}
+#footer_holder .footer_left {font-family:'PaulGroteskSoft-Regular',sans-serif; font-weight:400; font-size:14px; color:#396DFF; text-decoration:none; line-height:18px;}
+#footer_holder .footer_left strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400; font-size:16px; color: #3928BD; display: block;}
+
+/* Media Queries */
+@media only screen and (min-width:375px) {
+
+/* Page Header */
+#content_holder {padding:0 40px;}
+
+#page_header .interior_content h1 {font-size:60px; line-height:64px;}
+#page_header .two-line-header h1 {font-size:60px; line-height:64px;}
+#page_header .long-word h1 {font-size:60px; line-height:64px;}
+
+}
+
+@media only screen and (min-width: 480px) {
+
+#page_header .interior_content h1 {font-size:72px; line-height:77px;}
+#page_header .long-word h1 {font-size:72px; line-height:77px;}
+
+#page_header .two-line-header h1 {font-size: 72px; line-height: 74px; text-align: center;}
+#page_header .letter-header h1 {font-size: 44px; line-height: 46px; text-align: center;}
+
+.subsection_intro h2 {font-size: 45px;line-height: 55px;}
+#campaigns_section3 .column_right-content .column_right-statistics br {display: initial;}
+}
+
+@media only screen and (min-width: 600px) {
+#page_header .long-word h1 {font-size:72px; line-height:117px;text-align: center; white-space: nowrap;}
+
+.subsection_intro h2 {font-size: 60px;line-height: 70px;} 
+.community_grid-column {width:34%; float:left;}
+.community_grid-column:last-of-type {width:31%; float:left;}
+.donors .community_grid-column {width:33%; float:left;padding: 0 25px 0 0;}
+
+}
+
+@media only screen and (min-width: 720px) {
+#scientific-council h2 {font-size: 72px; line-height: 74px;}
+
+#chapter-donors h2 {font-size: 72px; line-height: 74px;}
+#afsp-north-stars h2 {font-size: 72px; line-height: 74px;}
+#funds-and-campaigns h2 {font-size: 72px; line-height: 74px;}
+
+}
+
+@media only screen and (min-width: 960px) {
+.subsection_intro h2 {font-size:72px; line-height:92px;} 
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+/* Page Header */
+#page_header .interior_content {padding:318px 0 160px 0; text-align:center;}
+#page_header .interior_content h1 {font-size:130px; line-height:137px;}
+
+#page_header .two-line-header {padding:276px 0 104px 0; text-align:center;}
+    
+#page_header .letter-header {padding:290px 0 164px 0; text-align:center; width: 720px;}
+#page_header .letter-header h1 {padding:0; text-align:left; font-size: 54px; line-height: 56px;}
+#page_header .letter-header br {display: block;}
+    
+/* Page Intro */
+#page_intro h2 {font-size:26px; line-height:29.5px;margin: 0 0 15px 0;}
+#page_intro p {font-size:22px; line-height:28px;margin: 0 0 15px 0;}
+#page_intro .intro_highlight p {font-size: 26px; line-height: 30px;}
+    
+.grants #page_intro h2 {font-size:26px; line-height:29.5px;margin: 0 0 26px 0;}
+#page_intro .letter_intro {font-size:22px; line-height:28px; margin: 0 0 14px 0;}
+   
+#letter_list {width: 720px; margin: 65px 0 40px;padding: 0;}    
+#letter_list li {display: inline-block; vertical-align: top; text-align: left; width: 280px; margin: 0 120px 12px 0;}
+    
+    
+#page_intro .column_right-statistics {padding: 0; font-size: 18px; line-height: 26px;}
+#page_intro .column_right-statistics span {padding: 13px 40px 0 0; display: inline-block;line-height: 21px;vertical-align: top;}
+#page_intro	.column_right-statistics span strong {font-size: 36px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;padding: 8px 0 8px 0;}
+
+
+/* Subsection Intro */
+.subsection_intro h2 {font-size:90px; line-height:95px;margin: 0 0 151px 0;text-align: center;}
+.subsection_intro p {font-size:22px; line-height:28px;margin: 0 auto 15px;}
+/* Content */
+.content_mobile {display:none;}
+.content_desktop {display:block;}
+
+.column_left {float:left; width:253px;}
+.column_left-image {margin: 0 0 12px 0;}
+.column_left-image img {width:100%; height:auto; border-radius: 30px 0 0 30px;}
+
+    
+.column_left-caption {}
+
+.column_left .column_left-caption {padding: 13px 0 9px 14px; font-family:'PaulGroteskSoft-Medium',sans-serif; font-size: 26px; line-height: 26px; color: #396DFF; text-align: right;/*! white-space: nowrap; */}
+.column_left .column_left-caption strong {font-size: 100px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;line-height: 70px;}
+    
+.column_right {float:right; width:628px;padding: 37px 0;}
+.column_right-content h3 {padding:0 0 21px 0; font-size: 24px; font-weight:400; line-height: 27px;}
+.column_right-content p {line-height: 21px;padding: 0 0 21px 0;font-size: 16px;}
+.column_right-content p:last-of-type {line-height: 21px;padding: 0 0 12px 0;font-size: 16px;}
+.column_right-content ul {font-size: 16px; line-height: 19.5px; padding-top:0; margin-top:-14px;}
+    
+.column_right-content .column_right-statistics {padding: 0; font-size: 21px; line-height: 26px;}
+.column_right-content .column_right-statistics span {padding: 13px 40px 0 0; display: inline-block;line-height: 21px;vertical-align: top;}
+.column_right-content .column_right-statistics span strong {font-size: 36px; display: block; font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;padding: 8px 0 8px 0;}
+
+
+.interiorspotlight_section {max-width:578px;padding: 30px 28px 14px;}
+.interiorspotlight_section .interiorspotlight_more {opacity:0;padding: 0 20px 0 0;margin: -35px 0 0 0;}
+    
+.interiorspotlight_section:hover {background-color:rgba(255, 255, 255, 0.5); border:1px solid rgba(255, 255, 255, 0)}
+.interiorspotlight_section:hover .interiorspotlight_more {opacity:1;}
+  
+.interiorspotlight_quote p {padding: 0 0 12px 48px; font-family: 'PaulGroteskSoft-Regular', sans-serif; color: #396DFF; font-size: 26px; line-height: 30px;}
+.interiorspotlight_quote-citation p {font-size: 14px; line-height: 16px; color: #3928BD;}
+.interiorspotlight_section .interiorspotlight_quote #quotation_mark {	
+	font-size: 90px;
+    position:absolute;
+	display: initial;
+	top: 95px;
+	left: 20px;
+}
+    
+.interiorspotlight_section .interiorspotlight_quote #quotation_mark {	
+	line-height: 10px;
+	padding: 0;
+}  
+
+    
+#walks_section1 {padding:76px 0 0 0;}
+#walks_section2 {padding:150px 0 0 0;}
+#walks_section3 {padding:137px 0 92px 0;}
+#walks_section4 {padding:58px 0 134px 0;}  
+#walks_section5 .column_left {margin:0 0 0 -40px; position:absolute; top:50%;}
+#walks_section5 .column_right {float:right; width:628px; padding:37px 0 54px;}
+
+
+#education_section1 {padding:75px 0 0 0;}
+#education_section2 {padding:150px 0 0 0;}
+#education_section3 {padding:137px 0 92px 0;}
+#education_section4 {padding:58px 0 134px 0;}
+    
+#campaigns_section1 {padding:75px 0 0 0;}
+#campaigns_section1 .column_left {margin: 0 0 0 -40px;position: absolute;bottom: 10%;}
+#campaigns_section1 .column_right-content:last-of-type {padding: 12px 0 0 40px;}
+#campaigns_section2 {padding:150px 0 0 0;}
+#campaigns_section2 .column_left .column_left-caption {padding: 13px 0 9px 0;}
+#campaigns_section2 .column_left .column_left-caption strong {font-size: 78px; line-height: 70px; text-align: right;}
+#campaigns_section3 {padding:150px 0 92px 0;}
+#campaigns_section3 .column_left {margin: 0 0 0 -40px;position: absolute;top: 40%; float: right;}
+
+#campaigns_section4 {padding:58px 0 38px 0;}  
+#campaigns_section4 .column_right {float:none; padding: 37px 0 27px 0; margin: 0 auto;}
+
+#campaigns_section5 {padding:112px 0 45px 0;}
+#campaigns_section5 .column_left .column_left-caption strong {font-size: 80px; line-height: 60px;}
+
+#campaigns_section6 {padding:105px 0 45px 0;}
+#campaigns_section6 .column_right {float:none; padding: 37px 0; margin: 0 auto;}
+
+#campaigns_section7 {padding:105px 0 45px 0;}
+#campaigns_section7 .column_right {float:none; padding: 37px 0; margin: 0 auto;}
+
+#campaigns_section8 {padding:105px 0 150px 0;}
+#campaigns_section8 .column_right {float:none; padding: 37px 0; margin: 0 auto;}
+
+#campaigns_section9 {padding:75px 0 30px 0;}
+#campaigns_section9 .column_left {margin: 0 0 0 -40px;position: absolute; top: 20%;}
+#campaigns_section9 .column_left .column_left-caption strong {font-size: 80px; line-height: 70px; text-align: right;}
+#campaigns_section9 .column_right {padding: 37px 0 49px;}
+
+#research_section1 {padding:90px 0 0 0;}
+#research_section2 {padding:105px 0 0 0;}
+#research_section3 {padding:10px 0 10px 0;}
+#research_section4 {padding:0 0 0 0;}  
+
+#research_section2 .column_right {/* float:none; */ width:628px;padding: 37px 0; margin: 0 auto;}
+
+#research_section2a .column_right-content p:last-of-type {padding: 0 0 0 0;}
+
+    
+#research_section3 .column_left-image {margin: 0 0 12px 0;}
+#research_section4 .column_left-image {margin:0 0 12px 0;}
+    
+#advocacy_section1 {padding:92px 0 0 0;}
+#advocacy_section2 {padding:105px 0 0 0;}
+#advocacy_section3 {padding:133px 0 57px 0;}
+#advocacy_section4 {padding:58px 0 57px 0;}
+#advocacy_section5 {padding:58px 0 0 0;}  
+
+#advocacy_section1 .column_right {float:none; width:628px;padding: 37px 0; margin: 0 auto;}
+#advocacy_section5 .column_right {float:none; width:628px;padding: 37px 0; margin: 0 auto;}
+#advocacy_section5 .column_right-content .column_right-statistics span {padding: 13px 40px 0 0; display: block;}
+
+#advocacy_section5 .column_right-content .stats_highlight  {font-size: 21px !important; line-height: 26px;}
+    
+    
+#screening_section1 {padding:92px 0 48px 0;}
+#screening_section2 {padding:105px 0 0 0;}
+#screening_section3 {padding:133px 0 57px 0;}    
+#screening_section1 .column_right .column_right-content p {font-size: 26px; line-height: 30px;}
+
+#loss_section1 {padding:92px 0 48px 0;}
+#loss_section1 .column_left {margin: 0 0 0 -20px;position: absolute; bottom: 40%;}
+#loss_section1 .column_right-content p:last-of-type {padding: 0;}
+#loss_section1 .column_left .column_left-caption strong {font-size: 80px; display: block;}
+
+#loss_section2 {padding:85px 0 0 0;}
+#loss_section2 .column_right-content .stats_highlight  {font-size: 21px !important; line-height: 26px;padding: 0;}
+
+#loss_section3 {padding:140px 0 57px 0;}    
+#loss_section3 .column_right {float:none; width:628px;padding: 37px 0 30px; margin: 0 auto;}
+#loss_section3 .column_right-content p:last-of-type {padding: 0;}
+    
+#loss_section4 {padding:95px 0 57px 0;} 
+
+#loss_section5 {padding:95px 0 57px 0;}    
+#loss_section5 .column_right {float:none; width:628px; padding:37px 0; margin:0 auto;}
+
+#scientific-council .interior_content {max-width:none;}
+#scientific-council h2 {font-size: 96px; line-height:116px;}
+
+#chapter-donors .interior_content {max-width: none;}
+#chapter-donors h2 {font-size: 96px; line-height: 116px; margin: 116px 0 151px;}
+
+#afsp-north-stars .interior_content {max-width: none;}
+#afsp-north-stars h2 {font-size: 96px; line-height: 116px; margin: 116px 0 151px;}
+
+#funds-and-campaigns  .interior_content {max-width: none;}
+#funds-and-campaigns  h2 {font-size: 96px; line-height: 116px; margin: 116px 0 151px;}
+
+.donors .community_content h4 {padding:10px 0 9px 0;  font-size: 20px; font-weight:400; line-height: 24px; margin: 0;}
+
+
+#leadership_section12 {padding: 0 0 77px 0;}    
+#leadership_section16 .community_grid-column {width:100%; float:left;}
+
+
+.grants_sections h2 {font-size:26px; line-height:29.5px;margin: 0 0 13px 0;}
+.grants_sections p {font-size:22px; line-height:28px;margin: 0 0 15px 0;}
+
+
+.grants_intro-list {margin:32px 0 30px 0;}
+.grants_intro-list li {font-size: 20px; line-height: 24px;}
+
+.grants_recipient {width:40%; float:left; text-align:right; padding:0 30px 0 0;}
+
+.grants_recipient-photo {width:120px; float:right; margin:52px 0 18px 0;}
+.grants_recipient-photo img {width:100%; height:auto;}
+.grants_recipient-bio {width:100%; float:none; padding:0; clear:both; text-align:right;}
+.grants_recipient-bio p {text-align:right;}
+
+.grants_info {width:60%; float:left; /*! padding:0; */}
+
+.grants_addtl_photo {margin-top: 10px;}
+.grants_addtl_text {margin-top: 0px;}
+
+
+#footer_holder {padding:200px 34px 100px 34px; margin:0 auto;}
+    
+#footer_holder .footer_right a span {padding: 8px 10px 12px 15px;}
+#footer_holder .footer_right {font-size:16px;line-height: 20px;}
+#footer_holder .footer_right strong {font-size:23px;}
+
+
+
+#footer_holder .footer_left a span {padding:8px 15px 12px 12px;}
+#footer_holder .footer_left {font-size:16px;line-height: 20px;}
+#footer_holder .footer_left strong {font-size:23px;}
+
+
+    
+/* Scroller */
+.scroller {min-height:266px;}
+.scroll_pod {width:295px;}
+.scroll_pod-blue {padding:22px 28px 28px 28px; color:#fff; background:#396dff;}
+
+.scroll_pod-blue p {font-size:19px; line-height:23.5px;}
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1320px) {
+#campaigns_section3 .column_left {margin: 0 0 0 -110px; width: auto;}
+#scientific-council h2 {font-size: 130px; line-height: 117px; white-space: nowrap;}
+
+#chapter-donors h2 {font-size: 130px; line-height: 117px; white-space: nowrap;}
+
+#afsp-north-stars h2 {font-size: 130px; line-height: 117px; white-space: nowrap;}
+
+#funds-and-campaigns h2 {font-size: 130px; line-height: 117px; white-space: nowrap;}
+
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}
+

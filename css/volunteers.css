@@ -1,0 +1,135 @@
+/* Site Overides */
+
+body {background:#fff;}
+
+#nav_toggle span, #nav_toggle:before, #nav_toggle:after {background:#456FF6;}
+#nav_title p {color:#456FF6;}
+
+
+/* Volunteers */
+#volunteers_holder {/* width:100%; *//* height:100vh; *//* height: 100%; */position: relative;}
+
+
+#volunteers_holder .volunteer {padding:0; position:absolute; top:0; bottom:0; left:0; right:0;}
+#volunteers_holder .volunteer-dialog {width:100% !important; margin:0 auto !important; z-index:1; height:100%; position:relative;}
+
+#volunteers_holder .volunteer-content {position: relative;border:none;-webkit-box-shadow:none;box-shadow:none;min-height: 100vh;overflow:hidden;-webkit-border-radius:25px;-webkit-border-top-right-radius:0;-moz-border-radius:25px;-moz-border-radius-topright:0;border-radius:25px;border-top-right-radius:0;}
+
+#volunteers_holder .volunteer .volunteer-content:before {content:" ";display:block;position: fixed;left:0;right:0;bottom:0;height:35%;background-size:contain;background-position:bottom left;background-repeat:no-repeat;}
+#volunteers_holder .volunteer#spotlight_amy-grosso .volunteer-content:before {background-image:url("../images/spotlight_amy-grosso.jpg");}
+#volunteers_holder .volunteer#spotlight_ihsan-hines .volunteer-content:before {background-image:url("../images/spotlight_ihsan-hines.jpg");}
+#volunteers_holder .volunteer#spotlight_nancy-cooper .volunteer-content:before {background-image:url("../images/spotlight_nancy-cooper.jpg");}
+#volunteers_holder .volunteer#spotlight_santhiny-rajamohan .volunteer-content:before {background-image:url("../images/spotlight_santhiny-rajamohan.jpg");}
+#volunteers_holder .volunteer#spotlight_francis-gonzalez .volunteer-content:before {background-image:url("../images/spotlight_francis-gonzalez.jpg");}
+#volunteers_holder .volunteer#spotlight_jennifer-johnson .volunteer-content:before {background-image:url("../images/spotlight_jennifer-johnson.jpg");}
+#volunteers_holder .volunteer#spotlight_jennifer-warnick .volunteer-content:before {background-image:url("../images/spotlight_jennifer-warnick.jpg");}
+#volunteers_holder .volunteer#spotlight_tim_krivanek .volunteer-content:before {background-image:url("../images/spotlight_tim_krivanek.jpg");}
+#volunteers_holder .volunteer#spotlight_jennifer-butler .volunteer-content:before {background-image:url("../images/spotlight_jennifer-butler.jpg");}
+#volunteers_holder .volunteer#spotlight_tabitha-childers .volunteer-content:before {background-image:url("../images/spotlight_tabitha-childers.jpg");}
+
+
+
+
+#volunteers_holder .volunteer_top {height:65px; z-index:1; position:relative;}
+
+.volunteer_quote-desktop {position: fixed;top:120px;left:50px;max-width:445px;width:100%;display:none;}
+.volunteer_quote-desktop:before {content:" "; display:block; position:relative; width:42px; height:36px; background:url("../images/spotlight_quote.png") 0 0 no-repeat; background-size:contain; margin:0 0 10px 0;}
+.volunteer_quote-desktop p {margin:0; padding:0; color:#2AD891; font-size:20px; line-height:23px; font-family:'PaulGroteskSoft-Regular',sans-serif;}
+.volunteer_quote-desktop p strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+
+#volunteers_holder .volunteer-body-holder {position: absolute;height:calc(100% - 65px);top: 65px;left: 0;} 
+
+#volunteers_holder .volunteer-body {width:100%;position: relative;top:0;right:0;height:63%;overflow-y:auto;padding:0 20px 0 0;}
+
+
+
+.volunteer-body-header {padding:15px 20px 30px 20px;}
+.volunteer-body-header h2 {margin:0 0 3px 0; padding:0; font-weight:400; color:#396DFF; font-family:'PaulGroteskSoft-Bold',sans-serif; font-size:14px; line-height:24px;}
+.volunteer-body-header h3 {margin:0 0 5px 0; padding:0; font-weight:400; color:#3928BD; font-family:'PaulGroteskSoft-Bold',sans-serif; font-size:36px; line-height:36px;}
+.volunteer-body-header h4 {margin:0; padding:0; font-weight:400; color:#3928BD; font-family:'PaulGroteskSoft-Regular',sans-serif; font-size:18px; line-height:24px;}
+
+.volunteer-body-copy {padding:0 20px;}
+.volunteer-body-copy .volunteerspotlight_section {color:#262626; font-family:'PaulGroteskSoft-Regular',sans-serif; font-size:15px; line-height:22px; margin-bottom:40px;}
+.volunteer-body-copy .volunteerspotlight_section p {margin:0 0 10px 0; padding:0;}
+.volunteer-body-copy .volunteerspotlight_question {font-family:'PaulGroteskSoft-Bold',sans-serif;}   
+.volunteer-body-copy .volunteerspotlight_answer {}
+
+#volunteers_holder .volunteerspotlight_link {margin:40px 0 70px 0;}
+#volunteers_holder .volunteerspotlight_link a {font-family:'PaulGroteskSoft-Medium',sans-serif; font-size:14px; line-height:16px; display:inline-block; background:#396DFF; color:#fff; text-decoration:none; padding:10px 12px; border-radius:8px;}
+#volunteers_holder .volunteerspotlight_link a:hover {color:#fff; text-decoration:none;}
+
+.volunteer_quote-mobile {display:block; position:relative; padding:0 0 20px 0}
+.volunteer_quote-mobile:before {content:" "; display:block; position:relative; width:26px; height:22px; background:url("../images/spotlight_quote.png") 0 0 no-repeat; background-size:contain; margin:0 0 10px 0;}
+.volunteer_quote-mobile p {margin:0; padding:0; color:#2AD891; font-size:18px; line-height:21px; font-family:'PaulGroteskSoft-Regular',sans-serif;}
+.volunteer_quote-mobile p strong {font-family:'PaulGroteskSoft-Bold',sans-serif; font-weight:400;}
+
+
+
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+  
+}
+
+@media only screen and (min-width: 720px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+/* Volunteers */
+#volunteers_holder .volunteer {padding:0;}
+#volunteers_holder .volunteer .volunteer-content:before {height:85%; width:75%;}
+#volunteers_holder .volunteer#spotlight_jennifer-johnson .volunteer-content:before {height:85%; width:65%;}
+.volunteer_quote-desktop {display:block;}
+
+#volunteers_holder .volunteer-body-holder {height: auto;position:relative;top:0;/* bottom:0; */left:0;right:0;width: 100%;}
+#volunteers_holder .volunteer-body {max-width:410px;top:0;right:auto;left:50%;/* height:100%; */padding:0 20px 0 0;}
+
+
+#volunteers_holder .volunteer#spotlight_santhiny-rajamohan .volunteer-body {overflow: visible;}
+#volunteers_holder .volunteer#spotlight_santhiny-rajamohan .volunteer-body .volunteer-body-header {white-space: nowrap;}
+
+.volunteer-body-header {padding:72px 0 59px 0;}
+.volunteer-body-header h2 {font-size:17px; line-height:24px;}
+.volunteer-body-header h3 {font-size:54px; line-height:54px;}
+.volunteer-body-header h4 {font-size:30px; line-height:30px;}
+
+.volunteer-body-copy {padding:0;}
+
+.volunteer-body-copy .volunteerspotlight_section {font-size:16px; line-height:23px;}
+
+
+#volunteers_holder .volunteerspotlight_link {margin:40px 0 70px 0;}
+#volunteers_holder .volunteerspotlight_link a {font-size:15px; line-height:17px; display:inline-block; padding:15px 30px; border-radius:12px;}
+
+
+.volunteer_quote-mobile {display:none;}
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+#volunteers_holder .volunteer-body {max-width:500px;}
+
+}
+
+@media only screen and (min-width: 1320px) {
+
+#volunteers_holder .volunteer-body {max-width:540px;}
+
+
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}
